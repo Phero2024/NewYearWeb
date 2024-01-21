@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.text{
+    width: 100%;
+    height: 100vh;
+    background: url(banner_image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+   }
+
+   .flex {
+    display: flex;
+   }
+.shadowbox{
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 8px 8px 5px #bisque;
+    height: 100px;
+    width: 79em;
+    text-align: center;
+    align-content: center;
+    position: center;
+    background-color: bisque;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .wrapper {
+        margin: 150px;
+        width: 50%;
+    }
+
+    body{
+        margin: 0%;
+        font-family:  sans-serif;
+    }
+
+.section{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto;
+}
+
+    .section img{
+        height: 250px;
+    }
+
+    .section h1{
+        margin: 0;
+        color: #fff;
+    }
+::-webkit-progress-inner-element
+    .section img{
+        width: 200px;
+        height: 100px;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .column {
+        float:left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    .row: :after {
+        content: ""
+        display: table;
+        clear: both;
+    }
+
+    /*Style the form element with a border around it */
+
+    form {
+        border: 100px; solid #f1f1f1;
+    }
+
+
+    /* Add some padding and a grey background color to containers */
+
+    .container {
+        padding: 100px;
+        background-color: #ffffff;
+    }
+
+    /* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+  .action {
+    background-color: pink; 
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: black;
+
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* Hover Effect on Social Media Icons */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav a:hover{
+    opacity: 1;
+}
